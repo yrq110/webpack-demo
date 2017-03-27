@@ -45,6 +45,11 @@ const webpackConfig = {
       new HtmlWebpackPlugin({template: 'src/index.html'}),
       new ExtractTextPlugin("index.css"),
   ],
+  devServer: {
+    contentBase: path.join(__dirname, "dist"),
+    compress: true,
+    port: 9000
+  }
 };
 
 module.exports = webpackConfig;
