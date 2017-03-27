@@ -6,7 +6,8 @@ const path = require('path');
 const webpackConfig = {
   entry :
     {
-      app: path.resolve(__dirname, 'src/index')
+      app: path.resolve(__dirname, 'src/index'),
+      other: path.resolve(__dirname, 'src/other')
     },
   output : {
     path: path.resolve(__dirname, 'dist'),
