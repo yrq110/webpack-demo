@@ -11,4 +11,5 @@
 * extract-text-webpack-plugin
 * webpack-dev-server
 
-## [Blog](http://yrq110.me/2017/03/08/20170308-webpack-travel/)
+## Blog
+* [webpack江湖小白成长记](http://yrq110.me/2017/03/08/20170308-webpack-travel/)
